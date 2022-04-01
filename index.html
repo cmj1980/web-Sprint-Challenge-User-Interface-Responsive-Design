@@ -1,13 +1,12 @@
 <!doctype html>
 
 <html lang="en">
-
 <head>
 	<meta charset="utf-8">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sprint Challenge - Home</title>
-
-	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
+	<link rel="stylesheet" href="css/index.css">
 	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
 </head>
 
@@ -15,14 +14,22 @@
 	<div>
 		<!-- header -->
 		<header>
-			<div>
-				BLOOMTECH BAR AND GRILL
+			<div class="nav-bg">
+				<h1><a href="index.html">BLOOMTECH BAR AND GRILL</a></h1>
 
-				<!-- nav -->
-				Menu
-				Reservations
-				Special Offers
-				Contact
+				<nav>
+					<div class="links">
+					  <button><a href="menu.html">Menu</a></button>
+					  <button><a href="index.html">Reservations</a></button>
+					  <button><a href="index.html">Special Offers</a></button>
+					  <button><a href="index.html">Contact</a></button>
+					</div>
+					<div class="smicons">
+						<i class="fa-brands fa-facebook-square"></i>
+						<i class="fa-brands fa-twitter-square"></i>
+						<i class="fa-brands fa-instagram-square"></i>
+					   </div>
+			   </nav>
 			</div>
 		</header>
 
@@ -31,23 +38,23 @@
 			<div>
 				<h2>OUR FOOD</h2>
 
-				img/food-avocadotoast.jpg
+				<img src="img/food-avocadotoast.jpg" alt="Best Avocado Toast"> 
 
-				img/food-burger.jpg
+				<img src="img/food-burger.jpg" alt="Best Burger"> 
 
-				img/food-poutine.jpg
+				<img src="img/food-poutine.jpg" alt="Best Poutine"> 
 
-				img/food-ribs.jpg
+				<img src="img/food-ribs.jpg" alt="Fall Off The Bone Ribs"> 
 
-				img/food-sandwich.jpg
+				<img src="img/food-sandwich.jpg" alt="Best Sandwich In Town"> 
 
-				img/food-sausage.jpg
+				<img src="img/food-sausage.jpg" alt="Homemade Sausage"> 
 
-				img/food-steak.jpg
+				<img src="img/food-steak.jpg" alt="USDA Choice Steaks"> 
 
-				img/food-tacos.jpg
+				<img src="img/food-tacos.jpg" alt="Best Tacos"> 
 
-				img/food-wings.jpg
+				<img src="img/food-wings.jpg" alt="Blooming Wings"> 
 			</div>
 		</section>
 
@@ -124,14 +131,22 @@
 
 		<!-- footer -->
 		<footer>
+			
 			<!-- email signup -->
-			Join our mailing list!
-			Sign Up
+			<h2>Join our mailing list!</h2>
+			    <div class="esub">
+				 <input type="email" placeholder='Email Address'>
+				 <button><a href="#">Sign Up</a></button>
+				</div>
 			<!-- nav -->
-			Menu
-			Reservations
-			Special Offers
-			Contact
+			<nav>
+			<div class="footer-links">
+				<button><a href="menu.html">Menu</a></button>
+				<button><a href="index.html">Reservations</a></button>
+				<button><a href="index.html">Special Offers</a></button>
+				<button><a href="index.html">Contact</a></button>
+			  </div>
+		</nav>
 			<!-- copyright -->
 			©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
 		</footer>
