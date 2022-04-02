@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/*border: 0;*/
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,17 +49,21 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 html {
     max-width: 1920px;
     min-width: 428px;
+    width: 100%;
     font-size: 62.5%;
+    color: rgb(225, 239, 230);
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
+    color: rgb(225, 239, 230);
 }
 
 h1, h2, h3, h4, h5, h6, p, a, i {
@@ -68,6 +72,8 @@ h1, h2, h3, h4, h5, h6, p, a, i {
 
 h1 {
     font-size: 7.5rem;
+    text-align: center;
+    color: white;
 }
 
 h2 {
@@ -94,6 +100,30 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+.nav-bg{
+    background-color: rgba(0, 0, 0, 0.685);
+    height: 20vh;
+
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+    
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+    
+}
+.smicons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 /* spacer */
