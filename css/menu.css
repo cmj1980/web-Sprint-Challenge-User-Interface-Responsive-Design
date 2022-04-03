@@ -146,9 +146,10 @@ nav{
 /* menu */
 
 .menu {
+   
     width: 100%;
     height: auto;
-    background-color: rgba(0, 0, 0, 0.826);
+    background-color: rgb(0, 0, 0);
     background-image: url('../img/staff-bartender.jpg');
     background-size: cover;
     background-position: center;
@@ -157,12 +158,22 @@ nav{
 .menu-container{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     flex-direction: column;
+
 }
 .menu-section{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.menu-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 button {
     background-color: rgba(255, 255, 255, 0);
