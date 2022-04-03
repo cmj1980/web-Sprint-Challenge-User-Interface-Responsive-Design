@@ -113,10 +113,13 @@ header {
 
 .nav-bg{
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.685);
-    height: 20vh;
+    background-color: rgb(0, 4, 17, .8);
+    height: 25vh;
     
 
+}
+.menu-bg{
+    background:rgb(0, 4, 17, .8);
 }
 .links{
     display: flex;
